@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--
+Spacewar-Javascript
+This is a modern JS reboot of the 1962 classic PDP-1 Spacewar
+
+Copyright (C) 2021  Ron Perkins - <hello@ronperkins.com>
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<html>
+  <head>
+    <title>Spacewar - Cosmicsoft Games</title>
+    <meta name="description" content="This is a modern recreation of the classic 1962 MIT Spacewar game">
+    <link id="favicon" rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js"></script>
+    <script src="js/gameloop.js"></script>
+    <script src="js/draw.js"></script>
+    <script src="js/hershey.js"></script>
+    <script src="js/gameScreens.js"></script>
+    <script src="js/menuScreens.js"></script>
+    <!-- twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@ronperkins" />
+    <meta name="twitter:creator" content="@ronperkins" />
+    <meta name="twitter:title" content="Spacewar - Cosmicsoft Games">
+    <meta name="twitter:description" content="This is a modern recreation of the classic 1962 MIT Spacewar game.">
+    <meta name="twitter:image" content="https://ronperkins.com/spacewar/assets/images/spacewar.jpg">
+    <!-- opengraph -->
+    <meta property="og:title" content="Spacewar - Cosmicsoft Games" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://ronperknis.com/spacewar/assets/images/spacewar.jpg">
+    <meta property="og:image:width" content="625" />
+    <meta property="og:image:height" content="625" />
+    <meta property="og:description" content="This is a modern recreation of the classic 1962 MIT Spacewar game." />
+  </head>
+  <body onload="startGame()">
+    <div class="container">
+      <div id="game-frame">
+      </div>
+    </div>
+  </body>
+</html>
